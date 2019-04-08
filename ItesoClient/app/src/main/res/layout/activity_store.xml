@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.iteso.itesoclient.ActivityStore">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_store_new"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la Tienda:"
+        android:textSize="18sp"
+
+        />
+        <EditText
+            android:id="@+id/activity_store_name"
+            android:hint="@string/activity_store_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,TextFields" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono:"
+        android:textSize="18sp"
+
+        />
+        <EditText
+            android:id="@+id/activity_store_phone"
+            android:hint="@string/activity_store_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,TextFields"
+            android:inputType="phone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitud:"
+        android:textSize="18sp"
+
+        />
+        <EditText
+            android:id="@+id/activity_store_lat"
+            android:hint="@string/activity_store_lat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,TextFields"
+            android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitud:"
+        android:textSize="18sp"
+
+        />
+        <EditText
+            android:id="@+id/activity_store_lon"
+            android:hint="@string/activity_store_lon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,TextFields"
+            android:inputType="numberDecimal"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_store_city"
+            android:textSize="18sp"
+
+            />
+        <Spinner
+            android:id="@+id/activity_store_cities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_item_save">
+                <Button
+                    android:id="@+id/activity_store_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/activity_item_save"/>
+        </RelativeLayout>
+
+
+
+</LinearLayout>

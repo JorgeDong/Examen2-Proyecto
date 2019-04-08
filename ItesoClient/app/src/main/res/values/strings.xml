@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Iteso Client</string>
+
+    <string name="store">Store:</string>
+    <string name="description">Description:</string>
+
+    <string name="category">Category:</string>
+
+    <string name="technology">Technology</string>
+    <string name="home">Home</string>
+    <string name="electronics">Electronics</string>
+    <string name="refresh">Refresh</string>
+    <string name="newStore">Agregar Tienda</string>
+    <string name="activity_store_name">Nombre</string>
+    <string name="activity_store_new">Agregar Nueva Tienda</string>
+    <string name="activity_store_phone">Telefono</string>
+    <string name="activity_store_thum">Thumbnail</string>
+    <string name="activity_store_lat">Latitude</string>
+    <string name="activity_store_lon">Longitud</string>
+    <string name="activity_store_city">Seleccione una ciudad</string>
+    <string name="activity_item_save">Guardar</string>
+
+
+    <string-array name="cities">
+        <item>Guadalajara</item>
+        <item>Zapopan</item>
+        <item>Tonala</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

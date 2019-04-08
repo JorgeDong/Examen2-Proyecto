@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Iteso Store</string>
+    <string name="action_logout">Log out</string>
+    <string name="action_privacy_policy">Privacy Policy</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="technology_header">Technology</string>
+    <string name="home_header">Home</string>
+    <string name="electronics_header">Electronics</string>
+
+    <string name="activity_splash_label">WELCOME TO ITESO PRODUCTS</string>
+    <string name="activity_item_save">Guardar</string>
+    <string name="activity_item_title_hint">Agregar Nombre</string>
+
+    <string-array name="images">
+        <item>alienware</item>
+        <item>mac</item>
+        <item>micro</item>
+        <item>pillows</item>
+        <item>refrigerator</item>
+    </string-array>
+</resources>
